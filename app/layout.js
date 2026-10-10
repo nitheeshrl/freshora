@@ -12,8 +12,8 @@ export const metadata = {
   title: "Freshora: groceries delivered in 2 hours",
   description: "Fresh produce, dairy, bakery and pantry staples from your neighbourhood supermarket.",
   icons: {
-    icon: "./img/logo.png",   // <-- This automatically sets your logo in the browser tab!
-    apple: "./img/logo.png",  // <-- This sets the icon for iOS home screen bookmarks
+    icon: "/img/logo.png",  
+    apple: "/img/logo.png",  
   },
   // ... openGraph setup
 };
