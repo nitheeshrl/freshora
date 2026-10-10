@@ -16,7 +16,7 @@ export default function CartDrawer() {
         className={`drawer ${open ? "drawer--open" : ""}`}
         aria-label="Basket"
         aria-hidden={!open}
-        inert={!open ? "" : undefined}
+        inert={!open ? true : undefined}
       >
         <div className="drawer__head">
           <h2>Your basket</h2>

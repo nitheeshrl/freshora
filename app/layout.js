@@ -8,8 +8,14 @@ const display = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-disp
 const body = DM_Sans({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata = {
+  metadataBase: new URL("https://freshora.com"),
   title: "Freshora: groceries delivered in 2 hours",
   description: "Fresh produce, dairy, bakery and pantry staples from your neighbourhood supermarket.",
+  icons: {
+    icon: "./img/logo.png",   // <-- This automatically sets your logo in the browser tab!
+    apple: "./img/logo.png",  // <-- This sets the icon for iOS home screen bookmarks
+  },
+  // ... openGraph setup
 };
 
 export const viewport = { width: "device-width", initialScale: 1 };
